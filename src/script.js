@@ -31,7 +31,7 @@ const findMatches = (wordToMatch, breedList) => {
 const displayMatches = (event) => {
   const matchedArray = findMatches(event.target.value, breedList);
 
-  const html = matchedArray.map((breed) => {
+  const listItems = matchedArray.map((breed) => {
     return `
       <li><span>${breed.name}</span>
       <span><a href="${breed.website}" target="blank">see more</a> </span></li>
@@ -39,8 +39,8 @@ const displayMatches = (event) => {
   });
 
   // html is an array so use join to turn it into a string
-  suggestions.innerHTML = html.join("");
+  suggestions.innerHTML = listItems.join("");
 };
 
-searchInput.addEventListener("change", displayMatches);
+// searchInput.addEventListener("change", displayMatches);
 searchInput.addEventListener("keyup", displayMatches);
