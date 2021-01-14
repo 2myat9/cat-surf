@@ -1,8 +1,14 @@
 # CatSurf
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c06681f-c92c-4ea3-b79e-6bac3ae3be13/deploy-status)](https://app.netlify.com/sites/cat-surf/deploys)
+
 CatSurf is a fun project I did to practice instantly-updating search with JavaScript.
 
-The topic is from Day 6 of [Wes Bos's amazing course on JavaScript](https://courses.wesbos.com/).
+Preview: https://cat-surf.netlify.app/
+
+The topic is from Day 6 of [Wes Bos's amazing course on JavaScript](https://courses.wesbos.com/). 
+
+The API I used is [thecatapi](https://docs.thecatapi.com/1.0/api-reference/breeds/breeds-list).
 
 ## What I learned from this project
 
